@@ -16,7 +16,6 @@ public class BaseTests {
         driver.get("https://the-internet.herokuapp.com");
         driver.manage().window().maximize();
     }
-    @Test
     public static void main(String[] args) {
         BaseTests test = new BaseTests();
         test.setUp();

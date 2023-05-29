@@ -1,11 +1,12 @@
 package Login;
 
 import Base.BaseTests;
+import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;
 import pages.LoginPage;
 
 public class LoginTests extends BaseTests {
-    //private WebDriver driver;
+    private WebDriver driver;
     @Test
     public Void testlogin() throws InterruptedException {
         LoginPage loginPage = new LoginPage(driver);
